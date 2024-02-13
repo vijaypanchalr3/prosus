@@ -1,0 +1,3 @@
+[submodule "src/pyinstro"]
+	path = src/pyinstro
+	url = git@github.com:vijaypanchalr3/pyinstro.git
