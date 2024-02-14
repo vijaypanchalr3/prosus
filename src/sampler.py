@@ -4,7 +4,7 @@ from pyinstro import SR830
 import numpy
 import sys
 import time
-
+import keyboard
 
 
 class sampler:
@@ -13,14 +13,14 @@ class sampler:
                 write file, as what given from terminal or auto{number}.csv in present directory under data directory.
     limitation: too much hard coded
     """
-    def __init__(self) -> None:
+    def __init__(self, Argument="Frequency") -> None:
         self.device = SR830()
         time.sleep(2)
-        self.device.ping()
+        # self.device.ping()
         time.sleep(0.5)
-        print(self.device.read())
+        # print(self.device.read())
         time.sleep(2)
-        self.device.longwriterow(["Frequency", "XinV", "YinV", "RinV", "outputphase"])
+        self.device.longwriterow([Argument, "XinV", "YinV", "RinV", "outputphase"])
 
     def discrete_range(self,minimum,maximum,step):
         
@@ -36,7 +36,6 @@ class sampler:
                 for i in range(5):
                     print(self.device.get_data_explicitly(1))
                     data1= float(self.device.get_data_explicitly(1))
-                    
                     time.sleep(.1)
                     data2= float(self.device.get_data_explicitly(2))
                     time.sleep(.1)
@@ -48,6 +47,41 @@ class sampler:
                     # print(freq,data)
                     time.sleep(0.1)
 
+    
+    def manual(self, xmin, xmax, steps, times):
+        nestedbreak = False
+        distance = xmin
+        print("came outside")
+        while distance!=xmax:
+            count=0
+            print("hell")
+            while count < times:
+                time.sleep(.1)
+                command = keyboard.wait()
+                if command=="n" or command=="\n":
+                    # data1= float(self.device.get_data_explicitly(1))
+                    # time.sleep(.1)
+                    # data2= float(self.device.get_data_explicitly(2))
+                    # time.sleep(.1)
+                    # data3= float(self.device.get_data_explicitly(3))
+                    # time.sleep(.1)
+                    # data4= float(self.device.get_data_explicitly(4))
+                    # time.sleep(.1)
+                    print("distance ", distance)
+                    self.device.longwriterow([distance, 1, 2, 3, 4])
+                    count+=1
+                    distance-=steps
+                elif command=="p":
+                    distance-=steps
+                elif command=="q":
+                    nestedbreak=True
+                    break
+                else:
+                    pass
+            if nestedbreak==True:
+                break
+
+    
     def partition_loop(self,minimum, maximum,partitions,timedelay=0.2):
         # time.sleep(2)
         frange = numpy.linspace(minimum, maximum,partitions)
@@ -71,5 +105,5 @@ class sampler:
 
 if __name__=="__main__":
     x = sampler()
-    x.discrete_range(500,100000,500)
+    x.manual(25,-1,0.5,3)
     sys.exit()
