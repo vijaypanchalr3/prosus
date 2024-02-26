@@ -82,6 +82,14 @@ class sampler:
             if nestedbreak==True:
                 break
 
+        
+    def timer(self):
+        for i in range(10000):
+            time.sleep(.1)
+            data = self.device.get_data_explicitly_fast()
+            data = data[:-1].split(",")
+            print(data)
+            self.device.longwriterow(data)
     
     def partition_loop(self,minimum, maximum,partitions,timedelay=0.2):
         # time.sleep(2)
@@ -106,5 +114,5 @@ class sampler:
 
 if __name__=="__main__":
     x = sampler()
-    x.manual(25,-1,0.5,3)
+    x.timer()
     sys.exit()
