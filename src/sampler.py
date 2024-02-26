@@ -57,8 +57,7 @@ class sampler:
             print("hell")
             while count < times:
                 time.sleep(.1)
-                command = keyboard.wait()
-                if command=="n" or command=="\n":
+                if input()=="":
                     # data1= float(self.device.get_data_explicitly(1))
                     # time.sleep(.1)
                     # data2= float(self.device.get_data_explicitly(2))
@@ -67,17 +66,19 @@ class sampler:
                     # time.sleep(.1)
                     # data4= float(self.device.get_data_explicitly(4))
                     # time.sleep(.1)
-                    print("distance ", distance)
-                    self.device.longwriterow([distance, 1, 2, 3, 4])
+                    data = self.device.get_data_explicitly_fast()
+                    data = data[:-1].split(",")
+                    print("distance ", distance, data)
+                    self.device.longwriterow([distance]+data)
                     count+=1
-                    distance-=steps
-                elif command=="p":
-                    distance-=steps
-                elif command=="q":
-                    nestedbreak=True
-                    break
                 else:
-                    pass
+                    print("continue ? ")
+                    if input()=="y":
+                        pass
+                    else:
+                        nestedbreak=True
+                        break
+            distance-=steps
             if nestedbreak==True:
                 break
 
