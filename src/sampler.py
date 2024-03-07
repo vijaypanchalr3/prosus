@@ -23,29 +23,18 @@ class sampler:
         self.device.longwriterow([Argument, "XinV", "YinV", "RinV", "outputphase"])
 
     def discrete_range(self,minimum,maximum,step):
-        
-        self.device.set_frequency(minimum)
-        time.sleep(.8)
-        self.device.autogain()
         input()
-        for freq in range(minimum,maximum,step):
-            self.device.set_frequency(freq)
-            print(freq)
-            time.sleep(1)
-            for j in range(1):
-                for i in range(5):
-                    print(self.device.get_data_explicitly(1))
-                    data1= float(self.device.get_data_explicitly(1))
-                    time.sleep(.1)
-                    data2= float(self.device.get_data_explicitly(2))
-                    time.sleep(.1)
-                    data3= float(self.device.get_data_explicitly(3))
-                    time.sleep(.1)
-                    data4= float(self.device.get_data_explicitly(4))
-                    time.sleep(.1)
-                    self.device.longwriterow([freq,data1, data2, data3, data4])
+        for voltage in numpy.arange(minimum,maximum,step):
+            self.device.set_voltage(voltage)
+            voltage=round(voltage,3)
+            print(voltage)
+            time.sleep(.5)
+            for j in range(250):
+                for i in range(1):
+                    data = self.device.get_data_explicitly_fast()
+                    self.device.longwriterow([voltage]+data)
                     # print(freq,data)
-                    time.sleep(0.1)
+                    time.sleep(0.08)
 
     
     def manual(self, xmin, xmax, steps, times):
@@ -85,9 +74,8 @@ class sampler:
         
     def timer(self):
         for i in range(10000):
-            time.sleep(.1)
+            time.sleep(.08)
             data = self.device.get_data_explicitly_fast()
-            data = data[:-1].split(",")
             print(data)
             self.device.longwriterow(data)
     
