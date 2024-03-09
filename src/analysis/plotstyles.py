@@ -1,12 +1,13 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
+from matplotlib.font_manager import FontProperties
 plt.rcParams['text.usetex'] = True
 plt.rcParams.update({"font.size": 12})
-
+plt.rcParams.update({'font.family': 'Helvetica'})
 def scatter_with_hist(data1, data2, label1="data1", label2="data2", ylabel="Y",savefile=None, suptitle=None, transparent=False, dpi=600)->None:
-    facecolor = ["cyan", "orange"]
-    edgecolor = ["white", "white"]
+    facecolor = ["#0CA678", "#F76707"]
+    edgecolor = ["#FFF5F5", "#FFF5F5"]
     mean1 = np.mean(data1)
     mean2 = np.mean(data2)
 
@@ -17,6 +18,7 @@ def scatter_with_hist(data1, data2, label1="data1", label2="data2", ylabel="Y",s
     
     # Start with a square Figure.
     fig = plt.figure(figsize=(6, 6))
+
     gs = fig.add_gridspec(1, 2,  width_ratios=(10, 4),
                       left=0.1, right=0.9, bottom=0.1, top=0.9,
                       wspace=0.0, hspace=0.05)
@@ -33,8 +35,7 @@ def scatter_with_hist(data1, data2, label1="data1", label2="data2", ylabel="Y",s
     axhist.tick_params(axis="y", labelbottom=False)    
     ylim = [np.min([np.min(data1),np.min(data2)]), np.max([np.max(data1), np.max(data2)])]
     ax.set_xlim(0,10000)
-    ax.set_ylim(ylim[0],ylim[1])
-
+    ax.set_ylim(ylim[0]-(np.abs(ylim[1]-ylim[0])/10),ylim[1]+(np.abs(ylim[1]-ylim[0])/10))
     ax.set_ylabel(r'%s'%ylabel)
     z1 =4
     z2 =4
@@ -103,7 +104,25 @@ def scatter_with_hist(data1, data2, label1="data1", label2="data2", ylabel="Y",s
                    color="#000000", 
                    linestyle="--",
                    zorder=60)
-    
+    font = FontProperties(
+        family="Helvetica", weight="regular", size=11
+    )
+    for label in ax.get_yticklabels():
+        label.set_fontproperties(font)
+    for label in axhist.get_yticklabels():
+        label.set_fontproperties(font)
+    ax.annotate('{:e}'.format(np.abs(mean2-mean1)), xy=(2000, mean1),xytext=(2000, (mean1+mean2)/2.), 
+            bbox=dict(facecolor='none', edgecolor='black', boxstyle='round,pad=.5'), 
+            horizontalalignment="center",
+            arrowprops=dict(facecolor='black',width=.5, headwidth=5, headlength=5), 
+            verticalalignment="center",
+            zorder=500)    
+    ax.annotate('{:e}'.format(np.abs(mean2-mean1)), xy=(2000, mean2),xytext=(2000, (mean1+mean2)/2.), 
+            bbox=dict(facecolor='none', edgecolor='black', boxstyle='round,pad=.5'), 
+            horizontalalignment="center",
+            arrowprops=dict(facecolor='black',width=.5, headwidth=5, headlength=5), 
+            verticalalignment="center",
+            zorder=500)  
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
     ax.set_xticklabels([])
@@ -135,7 +154,7 @@ def scatter_with_hist(data1, data2, label1="data1", label2="data2", ylabel="Y",s
         plt.show()
         pass
     else:
-        plt.savefig(savefile, transparent=transparent, dpi=dpi)
+        plt.savefig(savefile, transparent=transparent, dpi=dpi, bbox_inches = 'tight')
         pass
     
     
