@@ -97,4 +97,4 @@ K \approxeq 18
 \end{equation*}
 
 
-Also, if compare slope of graph then $\chi^{(nickel)} \ge \chi{(LSMO)}$, which is hard to believe.
+Also, if compare slope of graph then $\chi^{(nickel)} < \chi{(LSMO)}$, which is hard to believe.
