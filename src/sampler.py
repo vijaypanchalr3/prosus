@@ -102,5 +102,5 @@ class sampler:
 
 if __name__=="__main__":
     x = sampler()
-    x.timer()
+    x.discrete_range(.5,4.6,0.1)
     sys.exit()
