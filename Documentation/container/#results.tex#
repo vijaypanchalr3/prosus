@@ -1,0 +1,24 @@
+
+Our result is partitioned in partitions related with steps we took in our project. This is MSc project that’s why we wrote this way. First part is the initial plots which shows how  our instrument works. This shows position-dependent graphs of ferromagnetic substances (Iron). This shows some sinusoidal curve which is logical and we can find maximum magnetization at a certain distance into secondary coils. This is that curve,
+
+\begin{figure}[hbt!]
+\includegraphics[width= \linewidth]{plots/distance.png}
+\end{figure}
+
+Now, comes the calibration result of our samples. We took four samples for calibration, these are $Fe_2O3$, Nickel, LSMO(full name) and $Gd_2O_3$. These are voltage graphs.
+
+\begin{figure}[hbt!]
+\includegraphics[width= \linewidth]{plots/fe2o3R.png}
+\end{figure}
+\begin{figure}[hbt!]
+\includegraphics[width= \linewidth]{plots/LSMOR.png}
+\end{figure}
+\begin{figure}[hbt!]
+\includegraphics[width= \linewidth]{plots/nickelR.png}
+\end{figure}
+\begin{figure}[hbt!]
+\includegraphics[width= \linewidth]{plots/gd2o3R.png}
+\end{figure}
+
+
+We made some inference that 

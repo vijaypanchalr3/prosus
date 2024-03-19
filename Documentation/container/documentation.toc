@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Theoritical concepts}{1}{section.2}%
+\contentsline {section}{\numberline {3}Experimental setup}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Coil assembly}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Offset Settings}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Calibration}{3}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Noise}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results and Analysis}{9}{section.4}%
+\contentsline {section}{\numberline {5}Conclutions}{9}{section.5}%
+\contentsline {section}{References}{9}{section.5}%

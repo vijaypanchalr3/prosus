@@ -1,0 +1,30 @@
+\documentclass[final,5p,12pt,twocolumn]{elsaarticle}
+\include{mypackages}
+\usepackage[skip=10pt plus1pt, indent=40pt]{parskip}
+\begin{document}
+\pagenumbering{roman}
+\maketitle
+\clearpage
+\include{frontmatter}
+\pagenumbering{arabic}
+\section{Introduction}\label{introduction}
+%% \vspace{-2mm}
+\input{introduction}
+\section{Theoritical concepts}\label{theory}
+\input{theory}
+\section{Experimental setup}\label{setup}
+\input{setup}
+\section{Results and Analysis}\label{results}
+\input{results}
+\section{Conclutions}\label{conclutions}
+\input{conclutions}
+
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{plain}
+\bibliography{documentation}
+
+
+texfile: version:0.02
+\end{document}
+
+
