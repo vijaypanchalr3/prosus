@@ -1,4 +1,39 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Panchal2024gb}
+
+
+\bibitem{10.1063/1.1148349}
+A.~Bajpai and A.~Banerjee.
+\newblock An automated susceptometer for the measurement of linear and
+  nonlinear magnetic ac susceptibility.
+\newblock {\em Review of Scientific Instruments}, 68(11):4075--4079, 11 1997.
+
+\bibitem{10.1063/5.0182471}
+Shruti Chakravarty and Sunil Nair.
+\newblock Exploring low-temperature dynamics in triple perovskite ruthenates
+  using nonlinear dielectric susceptibility measurements.
+\newblock {\em Journal of Applied Physics}, 135(10):104103, 03 2024.
+
+\bibitem{wikidia}
+Wikipedia contributors.
+\newblock Diamagnetism -- wikipedia: The free encyclopedia, 2024.
+\newblock Online; accessed 14-April-2024.
+
+\bibitem{wikiferro}
+Wikipedia contributors.
+\newblock Ferromagnetism -- wikipedia: The free encyclopedia, 2024.
+\newblock Online; accessed 14-April-2024.
+
+\bibitem{wikipara}
+Wikipedia contributors.
+\newblock Paramagnetism--wikipedia: The free encyclopedia, 2024.
+\newblock Online; accessed 14-April-2024.
+
+\bibitem{10.1063/1.1137813}
+R.~B. Goldfarb and J.~V. Minervini.
+\newblock Calibration of ac susceptometer for cylindrical specimens.
+\newblock {\em Review of Scientific Instruments}, 55(5):761--764, 05 1984.
 
 \bibitem{cambr}
 P~Laurent, J.~Fagnard, B~Vanderheyden, Haribabu Nadendla, David Cardwell,
@@ -6,5 +41,22 @@ P~Laurent, J.~Fagnard, B~Vanderheyden, Haribabu Nadendla, David Cardwell,
 \newblock An ac susceptometer for the characterization of large, bulk
   superconducting samples.
 \newblock {\em Measurement Science and Technology}, 19, 05 2008.
+
+\bibitem{10.1063/1.2712792}
+S.~Miga, J.~Dec, and W.~Kleemann.
+\newblock Computer-controlled susceptometer for investigating the linear and
+  nonlinear dielectric response.
+\newblock {\em Review of Scientific Instruments}, 78(3):033902, 03 2007.
+
+\bibitem{Mugiraneza2022}
+Sam Mugiraneza and Alannah~M. Hallas.
+\newblock Tutorial: a beginner's guide to interpreting magnetic susceptibility
+  data with the curie-weiss law.
+\newblock {\em Communications Physics}, 5(1):95, Apr 2022.
+
+\bibitem{Panchal}
+Vijay Panchal.
+\newblock Vijaypanchalr3/shotnoise: Project for shot noise detection.
+\newblock Online; accessed 14-April-2024.
 
 \end{thebibliography}

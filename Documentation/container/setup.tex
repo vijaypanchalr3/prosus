@@ -1,10 +1,17 @@
-Setup was done in such a way that approximately all the instrument's magnetic field cancels out; only remaining is that of sample’s magnetization.  This can be done by cancelling mutual inductance of measuring coils. 
+Setup was done in such a way that approximately all the instrument's magnetic field cancels out; only remaining is that of sample’s magnetization.  This can be done by canceling mutual inductance of measuring coils. 
 \subsection{Coil assembly}
 Coils in Setup have two types. One is the primary coil which produces a magnetic field. Second is that of secondary coils which couple with primary and produce mutual inductance. Primary coil is connected to the input signal which is nothing but a reference signal from the LOCK-IN amplifier. This creates a changing magnetic field. 
-This changing magnetic field pick up by secondary coils which current inductive current, but they are winded opposite direction their current cancels out resulting in zero output signal but when signal is but in any one of these coils generates some residual magnetization and resultant signal. This signal $V_{out}$ is proportional to $\chi$ of the sample at hand. Geometry of coil is given in table 1. Also, \ref{assemby} shows coil assembly of our setup.
+
+%% \begin{figure*}[hbt!]
+%%   \centering\includegraphics[width=0.8\textwidth]{coils.png}
+%%   \caption{This is the main setup of the experiment. you can see primary coil and two secondary coil winded opposite directions}
+%%   \label{fig:assembly}
+%% \end{figure*}
+
+This changing magnetic field is picked up by secondary coils which current inductive current, but they are winded in the opposite direction their current cancels out resulting in zero output signal but when signal is but in any one of these coils generates some residual magnetization and resultant signal. This signal $V_{out}$ is proportional to $\chi$ of the sample at hand. Geometry of coil is given in table 1. Also, figure \ref{fig:assembly} shows the coil assembly of our setup.
 
 \noindent\setlength\tabcolsep{4pt}%
-\begin{tabularx}{\linewidth}{|c|c|c|}
+\begin{tabularx}{\linewidth}{|c|Y|c|Y|c|Y}
   \hline
   \hline
   & Primary Coil & Secondary Coil \\
@@ -15,17 +22,20 @@ This changing magnetic field pick up by secondary coils which current inductive 
  \hline
  \hline
 \end{tabularx}
-\label{geometry}
 \captionof{table}{Geometry of coils in our setup}
+\label{geometry}
 \vskip1cm
 
 \begin{figure*}[hbt!]
-  \centering\includegraphics[width=0.8\textwidth]{coils.png}
-  \label{assembly}
-  \caption{This is main setup of experiment. you can see primary coil and tweo secondary coil winded opposite directions}
+  \centering\includegraphics[width=0.7\textwidth]{coils.png}
+  \caption{This is the main setup of the experiment. you can see primary coil and two secondary coil winded opposite directions}
+  \label{fig:assembly}
 \end{figure*}
 
 \subsection{Offset Settings}
+
+
+
 At the initial stage, we have to offset null between two secondary coils voltage measurement. As a matter of facts we tried to take both our coils to be as symmetrical as possible but inherent human error is there. For this issue we took certain steps,
 
   
@@ -40,10 +50,12 @@ Finally we decided to ignore some offset and subtract it from data of samples. T
 
 
 \subsection{Calibration}
+
+
 The giant task of our project was to calibrate our handmade instrument. This is also benign by noise of instruments and readings. We made a decision and did this the following way. As it turns out, Calibration can be done in two ways.\cite{cambr} 
 \vskip1cm
 \begin{itemize}
-\item Theoretically, by mutual inductance cancellation. ((((ref 31)))
+\item Theoretically, by mutual inductance cancellation. \cite{10.1063/1.1137813}
 \vskip1cm
 \item Experimentally, by taking some standard susceptibility values of some known and reliable sample.
 \end{itemize}
@@ -59,18 +71,18 @@ There is still one catch, what we need is some $\chi_{int}$\cite{cambr}. What we
 \chi_{ext} = \frac{dM}{dH_a}
 \end{equation*}
  
-This two values are related by following identity (((ref camb paper))),
+This two values are related by following identity \cite{cambr},
 
 \begin{equation*}
 \chi_{int} = \frac{\chi_{ext}}{1-D\chi_{ext}}
 \end{equation*}
 
-This value $\chi_{ext}$ is what we took proportional in the previous topic as LOCK IN’s output signal $V_{out}$. If we take the first equation then we can approximate the calibration constant to some extent, we took the second way that is experimental. We took some samples that can give out certain values of output. Before going there, we did the first method. Simplified setup for primary coil is shown in \ref{circuit}. Here we neglected the back inductance of the secondary coil.
+This value $\chi_{ext}$ is what we took proportional in the previous topic as LOCK IN’s output signal $V_{out}$. If we take the first equation then we can approximate the calibration constant to some extent, we took the second way that is experimental. We took some samples that can give out certain values of output. Before going there, we did the first method. Simplified setup for primary coil is shown in figure  \ref{fig:circuit}. Here we neglected the back inductance of the secondary coil.
 
 \begin{figure}
   \includegraphics[width=1\linewidth]{circuit.png}
-  \label{circuit}
-  \caption{This is simpler circuit of coil assembly in our setup. we are neglecting effect of second coil}
+  \caption{This is a simpler circuit of coil assembly in our setup. we are neglecting effect of second coil}
+  \label{fig:circuit}
 \end{figure}
 
 Simplified circuit makes following kind of differential equation,
@@ -130,71 +142,74 @@ Hare, $n$ and $a$ are geometrical parameters of the coil, $n$ is the number of t
 \frac{d\Phi}{dt} = M \frac{dI}{dt}
 \end{equation*}
 
-Here, $M$ is a mutual inductance parameter, which only depends on setup and sample placement. Final, voltage measurement from our secondary coil is only dependent is only LOCK IN readings ((ref camb paper)),
+Here, $M$ is a mutual inductance parameter, which only depends on setup and sample placement. Final, voltage measurement from our secondary coil is only dependent is only LOCK IN readings \cite{cambr},
 
-\begin{equation*}
+\begin{equation*}\label{thiseq}
 V_{out} = \alpha H_a f V_{sample} \chi_{ext}
 \end{equation*}
 
 Here, $\alpha$ is calibration constant, which we have to determine. Theoretically, We know $H_a$, $V_{sample}$ (volume of sample: we took some small cylindrical capsule), $f$, $\chi_{ext}$ then we can find $\alpha$ directly. But knowing this parameter and their exact place in the instrument is very difficult. This is problematic. So, we turn to the second method and fix the orientations and parameters, put some sample and compare its reading calculated by their known magnetic susceptibility. 
 
-For calibration purposes we took four samples and their readings of output voltages. These are 1. $Fe_2O_3$, 2. Nickel, 3. LSMO (Lanthanum strontium manganite), 4. $Gd_2O_3$. For characterization purposes $Fe_2O_3$ and $Gd_2O3$ are paramagnets where Nickel and LSMO are Ferromagnets. Problem we faced in our measurement is that our instrument’s sensitivity is very low and sample weight is very small. As a result paramagnetic substances have feeble signals which are not very reliable compared to ferromagnets like Nickel and LSMO. The data are shown in figures \ref{Rdata1}, \ref{Rdata2}, \ref{Rdata3} and \ref{Rdata4} where you can see why ferromagnets signal is reliable.
+For calibration purposes we took four samples and their readings of output voltages. These are 1. $Fe_2O_3$, 2. Nickel, 3. LSMO (Lanthanum strontium manganite), 4. $Gd_2O_3$. For characterization purposes $Fe_2O_3$ and $Gd_2O3$ are paramagnets where Nickel and LSMO are Ferromagnets. Problem we faced in our measurement is that our instrument’s sensitivity is very low and sample weight is very small. As a result paramagnetic substances have feeble signals which are not very reliable compared to ferromagnets like Nickel and LSMO. The data are shown in figures \ref{fig:Rdata1}, \ref{fig:Rdata2}, \ref{fig:Rdata3} and \ref{fig:Rdata4} where you can see why ferromagnets signal is reliable.
 
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/fe2o3R.png}
-  \label{Rdata1}
   \caption{Plot of absolute values of voltage $Fe_2O_3$ and it's Background. You can see difference is $5.212068 \times 10^{-7}$}
+  \label{fig:Rdata1}
 \end{figure}
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/gd2o3R.png}
-  \label{Rdata2}
   \caption{Plot of absolute values of voltage $Gd_2O_3$ and it's Background. You can see difference is $3.543178 \times 10^{-7}$}
+  \label{fig:Rdata2}
 \end{figure}
 
 Also values for Nickel and LSMO. You can see stark differences.
 
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/LSMOR.png}
-    \label{Rdata3}
   \caption{Plot of absolute values of voltage $LSMO$ and it's Background. You can see difference is $2.257564 \times 10^{-4}$}
+  \label{fig:Rdata3}
 \end{figure}
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/nickelR.png}
-    \label{Rdata4}
   \caption{Plot of absolute values of voltage Nickel and it's Background. You can see difference is $2.711438 \times 10^{-4}$}
+  \label{fig:Rdata4}
 \end{figure}
 
-The values that we found in this data is that voltage differs relative to background(because we couldn’t make it zero). These values are shown in table \ref{Rreadings}.
-
+The values that we found in this data is that voltage differs relative to background(because we couldn’t make it zero). These values are shown in table \ref{tab:Rreadings}.
+%% \vskip 1cm
 \noindent\setlength\tabcolsep{4pt}%
-\begin{tabularx}{\linewidth}{c|c}
+\begin{center}
+\begin{tabularx}{.83\linewidth}{| c |Y| c |Y  }
   \hline
   \hline
   Samples & absolute voltage values in V \\
   \hline
-  $Fe_2O_3$ & 30565445 \\
-  $Gd_2O3$ & 20454545 \\
-  Nickel & 457845454 \\
-LSMO & 454544544 \\
+  $Fe_2O_3$ & $5.212068 \times 10^{-7}$ \\
+  $Gd_2O3$ & $3.543178\times 10^{-7}$ \\
+  Nickel & $2.711438 \times 10^{-4}$ \\
+LSMO &  $2.257564 \times 10^{-4}$\\
 \hline
 \hline
 \end{tabularx}
-\label{Rreadings}
 \captionof{table}{Absolute value reading after subtracting from background readings}
+\label{tab:Rreadings}
 \vskip1cm
+\end{center}
 
 Now the big problem is that Susceptibility value of ferromagnets is too dependent on experiment parameters (magnetic field strength, frequency, temperature etc). Compared to it, paramagnets have almost constant value of magnetic susceptibility. As a consequence we could not find exact values of this material. We could only rely on approximate values of it. 
 
-Also, we found $V_{in}$ and $V_{out}$ trends, which should directly give connection to magnetic susceptibility. This are that reading in figure \ref{voltage},
+Also, we found $V_{in}$ and $V_{out}$ trends, which should directly give connection to magnetic susceptibility. This are that reading in figure \ref{fig:voltage},
 
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/voltage.png}
-  \label{voltage}
   \caption{Different samples data for $V_{out}$ vs $V_{in}$}
+  \label{fig:voltage}
 \end{figure}
 
 \noindent\setlength\tabcolsep{4pt}%
-\begin{tabularx}{\linewidth}{c|c}
+\begin{center}
+\begin{tabularx}{.8\linewidth}{|c|Y|c|Y}
   \hline
   \hline
   Samples & Slope \\
@@ -207,8 +222,9 @@ Background  & 2.97732056e-04 \\
 \hline
 \end{tabularx}
 \captionof{table}{Slopes readings of different samples $V_{out}$ vs $V_{in}$}
-\label{Slopes}
 \vskip1cm
+\label{fig:Slopes}
+\end{center}
 
 
 This gives slopes of different samples and we can compare it to find ratios of different $\chi_{ext}$s. This relation should look like the following, $V_{out} \propto V_{in}$.
@@ -243,33 +259,75 @@ Here, $\chi_{ext}^{sample}= \frac{W \chi_{ext}}{W_a}$, where $W$ and $W_a$ are w
 
 For nickel we took magnetic susceptibility about $\chi_{int}^{(nickel)}=0.004423 m^3/mol$.
 
-If we put these values in equation ((reference)). This gave us a value of $\alpha = 11.82249$. This value is relatively high, which signifies sensitivity of our instrument. Compare it to values of some other commercial and also from other experiments, we have very $\frac{1}{\alpha}=0.08485 Am^2V^{-1}s^{-1}$ is low compared to commercials around $2.1546Am^2V^{-1}s^{-1}$ and from one experiment $11.24 Am^2V^{-1}s^{-1}$\cite{cambr}.
+If we put these values in equation \ref{thiseq}. This gave us a value of $\alpha = 11.82249$. This value is relatively high, which signifies sensitivity of our instrument. Compare it to values of some other commercial and also from other experiments, we have very $\frac{1}{\alpha}=0.08485 Am^2V^{-1}s^{-1}$ is low compared to commercials around $2.1546Am^2V^{-1}s^{-1}$ and from one experiment $11.24 Am^2V^{-1}s^{-1}$\cite{cambr}.
 
 
 \subsection{Noise}
+
+
 Noise factor in our instrument is very high. For Example the $R$ values which are absolute values of voltage ($\sqrt{X^2+Y^2}$) have relatively less noise compared to phase measurement. These noise values can’t be ignored since our measurements will have a relatively low number of measurements and the signal will be very feeble.
 
-LOCK IN in our setup is a very low noise instrument. This is a good thing to start with but as we built our instrument this factor is not very important. Instrument noise in our setup is very high for coils and other things. We take certain steps to reduce it, for example we made Faraday's cage like structure from aluminium foil to reduce external interference. 
 
-After doing all this we have very significant noise in our setup. Take a comparison between $R$ values of samples and phase measurement of the system. Compare this figures \ref{Tdata1}, \ref{Tdata2}, \ref{Tdata3} and  \ref{Tdata4} to the $R$ measurement given on this figure \ref{Rdata1}, \ref{Rdata2}, \ref{Rdata3}, \ref{Rdata4}.
 
-begin{figure}[hbt!]
+LOCK IN in our setup is a very low noise instrument. This is a good thing to start with but as we built our instrument this factor is not very important. Instrument noise in our setup is very high for coils and other things. We take certain steps to reduce it, for example we made Faraday's cage like structure from aluminum foil to reduce external interference. 
+
+
+
+
+After doing all this we have very significant noise in our setup. Take a comparison between $R$ values of samples and phase measurement of the system. Compare this figures \ref{fig:Tdata1}, \ref{fig:Tdata2}, \ref{fig:Tdata3} and  \ref{fig:Tdata4} to the $R$ measurement given on this figures \ref{fig:Rdata1}, \ref{fig:Rdata2}, \ref{fig:Rdata3}, \ref{fig:Rdata4}.
+
+
+\begin{figure}[hbt!]
 \includegraphics[width= \linewidth]{plots/fe2o3T.png}
-\label{Tdata1}
 \caption{Plot of phase values in degree $Fe_2O_3$ and it's Background}
+\label{fig:Tdata1}
 \end{figure}
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/LSMOT.png}
-  \label{Tdata2}
   \caption{Plot of phase values in degree $Gd_2O_3$ and it's Background}
+  \label{fig:Tdata2}
 \end{figure}
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/nickelT.png}
-  \label{Tdata3}
   \caption{Plot of phase values in degree $LSMO$ and it's Background}
+  \label{fig:Tdata3}
 \end{figure}
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{plots/gd2o3T.png}
-  \label{Tdata4}
   \caption{Plot of phase values in degree Nickel and it's Background}
+  \label{fig:Tdata4}
 \end{figure}
+
+\newpage
+\section{Future work and extension for setup}
+
+As you see earlier we got foundational work done for our AC susceptometer instrument. Now, this setup can be used measuring susceptibility values at particular frequencies and temperatures. We can extend this with an external setup for temperature sweeps. We have designed that setup but not yet implemented it because of a lack of time in semester work.
+
+\subsection{Temperature controlling and measuring setup}
+Essential constraints for temperature control and measurement is as follows,
+\begin{itemize}
+\item Temperature must be uniform throughout the sample.\\
+
+\item Temperature must be properly controlled under time of measurement.\\
+
+\item When measuring temperature it must measure the exact temperature of the sample.\\
+
+\item It must not affect measurement of susceptibility which implies that measurement and control unit must be very less magnetic compared to sample.
+\end{itemize}
+
+With this constraint we have designed the setup. We need the first heater. For that we have a temperature control unit with PT100 as feedback sensor. From the 4th constraint we need very little interference, for that we can use ceramic (non ferrite). One rod of ceramic is connected with a sample inside the instrument and the other end with heater wire (nichrome wire) outside the instrument. Of Course this will affect heat flow and we will end up with a gradient of temperature levels. This will compensate for the slow heat rate (few celsius per minutes) from the heater. Still this will affect temperature levels at sample. These problems can be solved by using another temperature sensor very close to the sensor and a small sample size (capsule size). Another sensor will help us to take data effectively without creating problems with the heater.
+
+\subsection{One coherent system for automatic measurement}
+ As in the previous section we have discussed how temperature setup can be done. This temperature setup must be in sync with measurement of susceptibility. For this we need one system where we can have timed data and simultaneous data of different measurements. We have devised a plan for doing that. We need one microprocessor and ADC for the temperature sensor. This microcontroller will be coupled with a computer. Also as we discussed previously, SR830 interfaces directly to the computer. This data stream will be connected to one frame computer with simultaneous measurement readings coming from both places.
+For temperature measurement we took PT100 Sensor. This sensor is then connected with an ADC converter and porting mechanism to the microprocessor. We will be using a microprocessor as Arduino Uno. We will be using ready-made porting and an ADC converter for Arduino.\footnote{MAX31865} With Arduino’s capability to easily connect to a mainframe computer, we will use it as an intermediate step in taking data. You can say the whole plane in the Block diagram shown in figure \ref{fig:setupimage}.
+
+\begin{figure}[hbt!]
+  \includegraphics[width= \linewidth]{setup.png}
+  \caption{Final setup would look like this with temperature and susceptibility data}
+  \label{fig:setupimage}
+\end{figure}
+
+\section{Results and Conclusion}
+
+We have made an AC susceptometer for measuring magnetic properties of material. These instruments can measure magnetic susceptibility automatically of a sample and with extended instrumentation as we talked in Experimental setup is capable of measuring magnetic properties in temperature sweeps. This can help tremendously in finding magnetic phase transition. We didn’t find that here but we find magnetic susceptibility of some of the samples.
+

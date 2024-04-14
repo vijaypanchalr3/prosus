@@ -1,7 +1,11 @@
 \documentclass[final,5p,12pt,twocolumn]{elsaarticle}
 \include{mypackages}
-\usepackage[skip=10pt plus1pt, indent=40pt]{parskip}
+\usepackage{parskip}
+\setlength{\parskip}{10pt} % 1ex plus 0.5ex minus 0.2ex}
+\setlength{\parindent}{30pt}
+\captionsetup{font=small} 
 \begin{document}
+\newcolumntype{Y}{>{\small\centering\arraybackslash}X}
 \pagenumbering{roman}
 \maketitle
 \clearpage
@@ -10,21 +14,16 @@
 \section{Introduction}\label{introduction}
 %% \vspace{-2mm}
 \input{introduction}
-\section{Theoritical concepts}\label{theory}
+%% \section{Theoritical concepts}\label{theory}
 \input{theory}
 \section{Experimental setup}\label{setup}
 \input{setup}
-\section{Results and Analysis}\label{results}
-\input{results}
-\section{Conclutions}\label{conclutions}
-\input{conclutions}
 
 \addcontentsline{toc}{section}{References}
 \bibliographystyle{plain}
 \bibliography{documentation}
 
 
-texfile: version:0.02
 \end{document}
 
 

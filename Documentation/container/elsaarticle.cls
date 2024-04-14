@@ -373,7 +373,7 @@
 \parbox[h]{.75\textwidth}{\centering\includegraphics[width=300pt]{GUlogo.pdf}}
 %%     \vskip50pt
     \parbox[b]{.75\textwidth}{\centering\Huge Project Report \par}\vskip10pt
-    \parbox[b]{.75\textwidth}{\centering\hrule height 2pt \vskip30pt\Huge\textbf{Instrumentation of AC Susceptometer with Determination of the AC magnetic Susceptibility and finding magnetic phase transitions of unknown samples}\par}\vskip20pt
+    \parbox[b]{.75\textwidth}{\centering\hrule height 2pt \vskip30pt\Huge\textbf{Instrumentation of AC Susceptometer}\par}\vskip20pt
    \parbox[b]{.75\textwidth}{\centering \LARGE MSc Semester $4$}\vskip7pt
     \parbox[b]{.75\textwidth}{\centering \large Unit 512:  Project Work}\vskip20pt 
 %%    \parbox[b]{.75\textwidth}{\centering\normalsize\elsauthors\par}\vskip10pt
