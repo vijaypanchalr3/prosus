@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="325.1304mm"
-   height="317.89096mm"
-   viewBox="0 0 325.1304 317.89096"
+   width="291.56366mm"
+   height="266.37939mm"
+   viewBox="0 0 291.56366 266.37939"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.24245164"
-     inkscape:cx="408.32885"
-     inkscape:cy="688.79714"
+     inkscape:zoom="0.17873502"
+     inkscape:cx="372.05914"
+     inkscape:cy="-123.08724"
      inkscape:window-width="1366"
      inkscape:window-height="736"
      inkscape:window-x="0"
@@ -126,14 +126,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(34.321221,20.890961)">
+     transform="translate(15.902093,-7.2634482)">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.750001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.750001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect44"
-       width="324.3804"
-       height="317.14096"
-       x="-33.94622"
-       y="-20.515961" />
+       width="291.56366"
+       height="266.37939"
+       x="-15.902093"
+       y="7.2634482" />
     <g
        id="g44"
        transform="translate(-26.13742)">
@@ -424,7 +424,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect19);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="419.01135"
            y="884.33416"
-           id="tspan11">SR830</tspan></text>
+           id="tspan1">SR830</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,-30.21844,4.9662373)"
@@ -432,7 +432,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect20);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="977.40299"
            y="865.5822"
-           id="tspan12">Computer</tspan></text>
+           id="tspan2">Computer</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,0.379702,-1.5023)"
@@ -440,13 +440,13 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect21);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="870.67587"
            y="539.61345"
-           id="tspan14"><tspan
+           id="tspan4"><tspan
              dx="0 0 0 0 0 0 0 -0.010005722"
-             id="tspan13">Arduino 
+             id="tspan3">Arduino 
 </tspan></tspan><tspan
            x="917.16759"
            y="602.94683"
-           id="tspan15">Uno</tspan></text>
+           id="tspan5">Uno</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,-21.914305,-36.685045)"
@@ -454,13 +454,13 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect22);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="851.60915"
            y="278.549"
-           id="tspan17"><tspan
+           id="tspan7"><tspan
              dx="0 0 0 -0.010003814"
-             id="tspan16">ADC
+             id="tspan6">ADC
 </tspan></tspan><tspan
            x="805.09716"
            y="341.88238"
-           id="tspan18">MAX31865</tspan></text>
+           id="tspan8">MAX31865</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,-80.359079,-10.86905)"
@@ -468,7 +468,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect23);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="520.10882"
            y="241.799"
-           id="tspan19">Susceptometer</tspan></text>
+           id="tspan9">Susceptometer</tspan></text>
       <g
          id="g1"
          transform="translate(2.3535247,-13.491788)">
@@ -488,13 +488,13 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.6667px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect24);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.61417;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
              x="275.93514"
              y="542.02361"
-             id="tspan21"><tspan
+             id="tspan11"><tspan
                dx="0 0 0 0 0 0 0 0 0 0 0 -0.010001907"
-               id="tspan20">Temperature
+               id="tspan10">Temperature
 </tspan></tspan><tspan
              x="320.44603"
              y="605.35698"
-             id="tspan22">Control</tspan></text>
+             id="tspan12">Control</tspan></text>
       </g>
       <path
          sodipodi:type="star"
@@ -621,9 +621,9 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect25);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="527.33687"
            y="749.55142"
-           id="tspan24"><tspan
+           id="tspan14"><tspan
              dx="0 0 0 0 0 0 0 -0.0099999998 0.0099945068"
-             id="tspan23">ceramic tube</tspan></tspan></text>
+             id="tspan13">ceramic tube</tspan></tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.24546328,0,0,0.24546328,-3.859312,8.4446656)"
@@ -631,7 +631,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect26);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.83327;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="466.05148"
            y="694.4772"
-           id="tspan25">Nichrome</tspan></text>
+           id="tspan15">Nichrome</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.6417px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.450001;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
@@ -653,7 +653,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect28);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
              x="297.04131"
              y="413.62564"
-             id="tspan26">feedback</tspan></text>
+             id="tspan16">feedback</tspan></text>
         <text
            xml:space="preserve"
            transform="matrix(0.26458333,0,0,0.26458333,8.3357176,-4.4893043)"
@@ -661,7 +661,7 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect29);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
              x="288.3063"
              y="463.24088"
-             id="tspan28">PT100</tspan></text>
+             id="tspan17">PT100</tspan></text>
       </g>
       <text
          xml:space="preserve"
@@ -670,7 +670,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect30);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="284.94984"
            y="346.26431"
-           id="tspan29">sample</tspan></text>
+           id="tspan18">sample</tspan></text>
       <text
          xml:space="preserve"
          transform="matrix(0.26458333,0,0,0.26458333,106.09271,51.42086)"
@@ -678,7 +678,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect31);display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.70079;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"><tspan
            x="288.3063"
            y="463.24088"
-           id="tspan30">PT100</tspan></text>
+           id="tspan19">PT100</tspan></text>
       <path
          sodipodi:type="star"
          style="fill:#162d50;stroke-width:1.54069;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"

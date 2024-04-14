@@ -2,7 +2,7 @@
 <svg
    version="1.1"
    width="316"
-   height="308"
+   height="235.36853"
    id="svg20"
    sodipodi:docname="circuit-20240318-1914.svg"
    inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.62987352"
-     inkscape:cx="-25.401925"
-     inkscape:cy="-14.288583"
+     inkscape:zoom="1.2355745"
+     inkscape:cx="119.37767"
+     inkscape:cy="108.45158"
      inkscape:window-width="1366"
      inkscape:window-height="736"
      inkscape:window-x="0"
@@ -34,41 +34,41 @@
   <defs
      id="defs4">
     <rect
-       x="297.00218"
-       y="160.06162"
-       width="53.547331"
-       height="29.453469"
+       x="297.00217"
+       y="160.06161"
+       width="53.547333"
+       height="29.453468"
        id="rect26" />
     <rect
-       x="195.59777"
+       x="195.59776"
        y="137.91428"
        width="34.944626"
-       height="34.477808"
+       height="34.47781"
        id="rect25" />
     <rect
-       x="89.912595"
+       x="89.912598"
        y="181.27008"
-       width="34.096103"
-       height="51.191312"
+       width="34.096104"
+       height="51.191311"
        id="rect24" />
     <rect
-       x="92.099262"
-       y="190.64025"
-       width="32.455465"
-       height="21.153283"
+       x="92.099258"
+       y="190.64024"
+       width="32.455463"
+       height="21.153282"
        id="rect23" />
     <rect
-       x="88.673864"
-       y="80.548211"
-       width="45.742987"
-       height="29.108102"
+       x="88.673866"
+       y="80.54821"
+       width="45.742989"
+       height="29.108103"
        id="rect22" />
     <linearGradient
        id="feBlEhfdpyCm"
-       x1="0px"
-       x2="32px"
-       y1="0px"
-       y2="0px"
+       x1="0"
+       x2="32"
+       y1="0"
+       y2="0"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
@@ -81,10 +81,10 @@
     </linearGradient>
     <linearGradient
        id="ZgQCWxQIALrn"
-       x1="0px"
-       x2="32px"
-       y1="0px"
-       y2="0px"
+       x1="0"
+       x2="32"
+       y1="0"
+       y2="0"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
@@ -102,15 +102,14 @@
      x="0"
      y="0"
      width="316"
-     height="308"
+     height="235.36853"
      id="rect4"
-     style="fill:#ffffff"
-     sodipodi:insensitive="true" />
+     style="fill:#ffffff;stroke-width:1" />
   <path
      fill="none"
      stroke="#807f7f"
      paint-order="fill stroke markers"
-     d="M 70,50 V 82"
+     d="m 70,13.684265 v 32"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -121,7 +120,7 @@
      fill="none"
      stroke="#639c63"
      paint-order="fill stroke markers"
-     d="m 70,114 v 32"
+     d="M 70,77.684265 V 109.68427"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -129,7 +128,7 @@
      id="path5"
      style="stroke:#000000" />
   <g
-     transform="rotate(90,-6,76)"
+     transform="rotate(90,12.157867,57.842133)"
      id="g8"
      style="stroke:#000000">
     <path
@@ -170,7 +169,7 @@
      fill="none"
      stroke="#639c63"
      paint-order="fill stroke markers"
-     d="m 70,146 v 40"
+     d="m 70,109.68427 v 40"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -181,7 +180,7 @@
      fill="none"
      stroke="#40be40"
      paint-order="fill stroke markers"
-     d="m 70,218 v 40"
+     d="m 70,181.68427 v 40"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -189,7 +188,7 @@
      id="path10"
      style="stroke:#000000" />
   <g
-     transform="rotate(90,-58,128)"
+     transform="rotate(90,-39.842133,109.84213)"
      id="g10"
      style="stroke:#000000">
     <rect
@@ -210,7 +209,7 @@
      fill="none"
      stroke="#807f7f"
      paint-order="fill stroke markers"
-     d="m 246,98 v 39"
+     d="M 246,61.684265 V 100.68427"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -221,7 +220,7 @@
      fill="none"
      stroke="#40be40"
      paint-order="fill stroke markers"
-     d="m 246,171 v 39"
+     d="m 246,134.68427 v 39"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -232,7 +231,7 @@
      fill="none"
      stroke="#808080"
      paint-order="fill stroke markers"
-     d="m 262.66,154 a 16.66,16.66 0 1 1 -1e-5,-0.0167"
+     d="m 262.66,117.68427 a 16.66,16.66 0 1 1 -1e-5,-0.0167"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -243,7 +242,7 @@
      fill="none"
      stroke="#808080"
      paint-order="fill stroke markers"
-     d="m 236,154 1,-2 1,-2 1,-2 1,-1 h 1 1 l 1,1 1,2 1,2 1,2 1,2 1,2 1,2 1,1 h 1 1 l 1,-1 1,-2 1,-2 1,-2"
+     d="m 236,117.68427 1,-2 1,-2 1,-2 1,-1 h 1 1 l 1,1 1,2 1,2 1,2 1,2 1,2 1,2 1,1 h 1 1 l 1,-1 1,-2 1,-2 1,-2"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -254,7 +253,7 @@
      fill="none"
      stroke="#40be40"
      paint-order="fill stroke markers"
-     d="M 70,258 H 246"
+     d="M 70,221.68427 H 246"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -270,7 +269,7 @@
      font-weight="normal"
      text-decoration="normal"
      x="158"
-     y="252"
+     y="215.68427"
      text-anchor="start"
      dominant-baseline="alphabetic"
      id="text16" />
@@ -278,7 +277,7 @@
      fill="none"
      stroke="#40be40"
      paint-order="fill stroke markers"
-     d="M 246,258 V 210"
+     d="m 246,221.68427 v -48"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -294,7 +293,7 @@
      font-weight="normal"
      text-decoration="normal"
      x="252"
-     y="240"
+     y="203.68427"
      text-anchor="start"
      dominant-baseline="alphabetic"
      id="text17" />
@@ -302,7 +301,7 @@
      fill="none"
      stroke="#807f7f"
      paint-order="fill stroke markers"
-     d="M 246,98 V 50"
+     d="m 246,61.684265 v -48"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -318,7 +317,7 @@
      font-weight="normal"
      text-decoration="normal"
      x="252"
-     y="80"
+     y="43.684265"
      text-anchor="start"
      dominant-baseline="alphabetic"
      id="text18" />
@@ -326,7 +325,7 @@
      fill="none"
      stroke="#807f7f"
      paint-order="fill stroke markers"
-     d="M 246,50 H 70"
+     d="M 246,13.684265 H 70"
      stroke-linecap="round"
      stroke-miterlimit="10"
      stroke-width="3"
@@ -342,19 +341,21 @@
      font-weight="normal"
      text-decoration="normal"
      x="158"
-     y="44"
+     y="7.6842651"
      text-anchor="start"
      dominant-baseline="alphabetic"
      id="text19" />
   <text
      xml:space="preserve"
      id="text23"
-     style="font-size:20px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect23);display:inline;fill:#000000;stroke:none;stroke-width:2.64567;stroke-linecap:round;paint-order:markers stroke fill"><tspan
+     style="font-size:20px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';text-align:center;letter-spacing:0px;word-spacing:0.01px;white-space:pre;shape-inside:url(#rect23);display:inline;fill:#000000;stroke:none;stroke-width:2.64567;stroke-linecap:round;paint-order:markers stroke fill"
+     transform="translate(0,-36.315735)"><tspan
        x="92.099609"
        y="228.81297"
-       id="tspan1">R</tspan></text>
+       id="tspan6">R</tspan></text>
   <g
-     id="g30">
+     id="g30"
+     transform="translate(0,-36.315735)">
     <text
        xml:space="preserve"
        id="text25"
@@ -362,7 +363,7 @@
        transform="translate(59.665885,4.8275605)"><tspan
          x="207.50032"
          y="154.93406"
-         id="tspan2">V</tspan></text>
+         id="tspan7">V</tspan></text>
     <text
        xml:space="preserve"
        id="text26"
@@ -370,10 +371,11 @@
        transform="translate(-38.162515,-11.45421)"><tspan
          x="316.72207"
          y="171.40914"
-         id="tspan3">ref</tspan></text>
+         id="tspan8">ref</tspan></text>
   </g>
   <g
-     id="g29">
+     id="g29"
+     transform="translate(0,-36.315735)">
     <text
        xml:space="preserve"
        id="text22"
@@ -381,7 +383,7 @@
        transform="translate(-21.739663,6.3211721)"><tspan
          x="105.63493"
          y="97.568828"
-         id="tspan4">L</tspan></text>
+         id="tspan9">L</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2.64567;stroke-linecap:round;paint-order:markers stroke fill"
@@ -395,7 +397,7 @@
   </g>
   <g
      id="g28"
-     transform="translate(0,0.93142596)">
+     transform="translate(0,-35.384309)">
     <text
        xml:space="preserve"
        id="text24"
@@ -403,7 +405,7 @@
        transform="translate(-17.764688,7.8232424)"><tspan
          x="100.44995"
          y="198.28953"
-         id="tspan5">R</tspan></text>
+         id="tspan10">R</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;font-family:'EB Garamond';-inkscape-font-specification:'EB Garamond, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0.01px;text-anchor:middle;fill:#000000;stroke:none;stroke-width:2.64567;stroke-linecap:round;paint-order:markers stroke fill"

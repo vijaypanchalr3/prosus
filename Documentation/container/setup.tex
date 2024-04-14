@@ -8,7 +8,7 @@ Coils in Setup have two types. One is the primary coil which produces a magnetic
 %%   \label{fig:assembly}
 %% \end{figure*}
 
-This changing magnetic field is picked up by secondary coils which current inductive current, but they are winded in the opposite direction their current cancels out resulting in zero output signal but when signal is but in any one of these coils generates some residual magnetization and resultant signal. This signal $V_{out}$ is proportional to $\chi$ of the sample at hand. Geometry of coil is given in table 1. Also, figure \ref{fig:assembly} shows the coil assembly of our setup.
+This changing magnetic field is picked up by secondary coils which generate inductive current, but they are winded in the opposite direction. Thus, their current cancels out resulting in zero output signal. When sample is in anyone of these coils, generates some residual magnetization and resultant signal. This signal $V_{out}$ is proportional to $\chi$ of the sample. Geometry of coil is given in table 1. Also, figure \ref{fig:assembly} shows the coil assembly of our setup.
 
 \noindent\setlength\tabcolsep{4pt}%
 \begin{tabularx}{\linewidth}{|c|Y|c|Y|c|Y}
@@ -21,32 +21,30 @@ This changing magnetic field is picked up by secondary coils which current induc
  No. turns & 550 & (450 + 450)\footnote{symmetrical winding, 450 clockwise and 450 anticlockwise}\\
  \hline
  \hline
+ \caption{Geometry of coils in our setup}
+ \label{geometry}
 \end{tabularx}
-\captionof{table}{Geometry of coils in our setup}
-\label{geometry}
-\vskip1cm
 
-\begin{figure*}[hbt!]
+\begin{figure*}[h]
   \centering\includegraphics[width=0.7\textwidth]{coils.png}
   \caption{This is the main setup of the experiment. you can see primary coil and two secondary coil winded opposite directions}
   \label{fig:assembly}
 \end{figure*}
 
+
+
 \subsection{Offset Settings}
-
-
 
 At the initial stage, we have to offset null between two secondary coils voltage measurement. As a matter of facts we tried to take both our coils to be as symmetrical as possible but inherent human error is there. For this issue we took certain steps,
 
   
-\vskip1cm
 \begin{itemize}
-\item Very crudely we take out or wind up our windings. This is to balance both secondary coils to almost perfection. This method is quite clumsy and pain staking. The offset still remains and we can’t go beyond the noise limit of the instrument.
+\item Very crudely we take out windings or wind up. This is to balance both secondary coils to almost perfection. This method is quite clumsy and pain staking. The offset still remains and we can’t go beyond the noise limit of the instrument.
 \vskip1cm
-\item Another thing we can do is that of using some external balancing circuit. Since we have very limited time we can’t go down this rabbit hole.
+\item Another thing we can do is that of using some external balancing circuit. Since we have very limited time we can’t go down to this rabbit hole.
 \end{itemize}
 \vskip1cm
-Finally we decided to ignore some offset and subtract it from data of samples. This way is not that effective but we don’t have other options.
+Finally we decided to ignore some offset and subtract it from data of background. This way is not that effective but we don’t have other options.
 
 
 \subsection{Calibration}
@@ -55,12 +53,12 @@ Finally we decided to ignore some offset and subtract it from data of samples. T
 The giant task of our project was to calibrate our handmade instrument. This is also benign by noise of instruments and readings. We made a decision and did this the following way. As it turns out, Calibration can be done in two ways.\cite{cambr} 
 \vskip1cm
 \begin{itemize}
-\item Theoretically, by mutual inductance cancellation. \cite{10.1063/1.1137813}
+\item Theoretically, by mutual inductance calculation, which can give exact value of how much field inside of sample. \cite{10.1063/1.1137813}
 \vskip1cm
 \item Experimentally, by taking some standard susceptibility values of some known and reliable sample.
 \end{itemize}
 \vskip1cm
-There is still one catch, what we need is some $\chi_{int}$\cite{cambr}. What we are measuring is $\chi_{ext}$. What are these different susceptibilities? Well as it turns out the $\chi_{int}$ is what we expect from theoretically, 
+There is still one catch, what we need is some $\chi_{int}$\cite{cambr}. What we are measuring is $\chi_{ext}$. What are these different values of susceptibilities? Well as it turns out the $\chi_{int}$ is what we expect from theoretically, 
 
 
 \begin{equation*}
@@ -77,7 +75,7 @@ This two values are related by following identity \cite{cambr},
 \chi_{int} = \frac{\chi_{ext}}{1-D\chi_{ext}}
 \end{equation*}
 
-This value $\chi_{ext}$ is what we took proportional in the previous topic as LOCK IN’s output signal $V_{out}$. If we take the first equation then we can approximate the calibration constant to some extent, we took the second way that is experimental. We took some samples that can give out certain values of output. Before going there, we did the first method. Simplified setup for primary coil is shown in figure  \ref{fig:circuit}. Here we neglected the back inductance of the secondary coil.
+This value $\chi_{ext}$ is what we took proportional in the previous topic as LOCK IN’s output signal $V_{out}$. If we take the first equation then we can approximate the calibration constant to some extent, we took the second way that is experimental. We took some samples that can give out certain values of output. Before going there, we calculated for the first method. Simplified setup for primary coil is shown in figure  \ref{fig:circuit}. Here we neglected the back inductance of the secondary coil.
 
 \begin{figure}
   \includegraphics[width=1\linewidth]{circuit.png}
@@ -91,7 +89,7 @@ Simplified circuit makes following kind of differential equation,
   V_{in}-L\frac{dI}{dt}-IR=0
 \end{equation}
 
-Where, $V_{in}$ is nothing but $V_{ref}$ from the LOCK IN amplifier.  It is in the following form $V_{in} = V_0 e^{i(w_rt+\phi_r)}$, $w_r$ is applied frequency, $\phi_r$ is taken as zero from input. $I$ is currently in the primary, this parameter is very important and gives applied magnetic field strength $H_a$. $L$ and $R$ are both electrical parameters of the primary coil, respectively self-inductance and resistance. Solution of equation \ref{diff} gives current in primary at instance of time,
+Where, $V_{in}$ is nothing but $V_{ref}$ from the LOCK IN amplifier.  It is of the following form $V_{in} = V_0 e^{i(w_rt+\phi_r)}$, $w_r$ is applied frequency, $\phi_r$ is taken as zero from input. $I$ is current in the primary, this parameter is very important and gives applied magnetic field strength $H_a$. $L$ and $R$ are both electrical parameters of the primary coil, respectively self-inductance and resistance. Solution of equation \ref{diff} gives current in primary at instance of time,
 
 \begin{equation}
 I_{real} = \frac{V_0\left[\frac{R}{L} cos(w_rt+\phi_r)+w_r sin(w_rt+\phi_r)\right]}{L(\frac{R^2}{L^2}+w_r^2)}+Ce^{-\frac{R}{L}t}  
@@ -101,7 +99,7 @@ I_{real} = \frac{V_0\left[\frac{R}{L} cos(w_rt+\phi_r)+w_r sin(w_rt+\phi_r)\righ
 I_{imag}=\frac{\left[\frac{R}{L} sin(w_rt+\phi_r)-w_r cos(w_rt+\phi_r)\right]}{L(\frac{R^2}{L^2}+w_r^2)}
 \end{equation}
 
-If we take $\phi_r = 0$ and $V_0 = 1 V$ which signifies that total input phase and amplitude of reference voltage from LOCK IN amplifier is 0 deg and 1 V. Also, $C$ is an integral constant.
+If we take $\phi_r = 0$ and $V_0 = 1 V$ which signifies that total input phase and amplitude of reference voltage from LOCK IN amplifier is 0 deg and 1 V. Here, $C$ is an integral constant.
  
 
 \begin{equation}
@@ -128,7 +126,7 @@ From this current magnetic field strength inside primary coil and coupled by sec
 H_a(t) = c N I(t)
 \end{equation*}
 
-Which is measured in $A/m$, here $c$ is coupling constant for secondary coil. Since, the magnetic field inside the coil is not homogeneous, finding this parameter is very difficult, also if we find it then we get averaged out readings as whole coil. Magnetic field inside coil $B=\mu_0 H_a$. Also, flux inside secondary coil is as following, 
+Which is measured in $A/m$, here $c$ is coupling constant for secondary coil. Since, the magnetic field inside the coil is not homogeneous, finding this parameter is very difficult, also if we find it then we get averaged out readings for whole coil. Magnetic field inside coil $B=\mu_0 H_a$. Also, flux inside secondary coil is as following, 
 
 \begin{equation*}
 \Phi = \mu_0 H_a n \pi a^2
@@ -142,7 +140,7 @@ Hare, $n$ and $a$ are geometrical parameters of the coil, $n$ is the number of t
 \frac{d\Phi}{dt} = M \frac{dI}{dt}
 \end{equation*}
 
-Here, $M$ is a mutual inductance parameter, which only depends on setup and sample placement. Final, voltage measurement from our secondary coil is only dependent is only LOCK IN readings \cite{cambr},
+Here, $M$ is a mutual inductance parameter, which only depends on setup and sample placement. Final, voltage measurement from our secondary coil is only dependent in only LOCK IN readings \cite{cambr},
 
 \begin{equation*}\label{thiseq}
 V_{out} = \alpha H_a f V_{sample} \chi_{ext}
@@ -197,7 +195,7 @@ LSMO &  $2.257564 \times 10^{-4}$\\
 \vskip1cm
 \end{center}
 
-Now the big problem is that Susceptibility value of ferromagnets is too dependent on experiment parameters (magnetic field strength, frequency, temperature etc). Compared to it, paramagnets have almost constant value of magnetic susceptibility. As a consequence we could not find exact values of this material. We could only rely on approximate values of it. 
+Now the big problem is that Susceptibility value of ferromagnets is very dependent on experiment parameters (magnetic field strength, frequency, temperature etc). Compared to it, paramagnets have almost constant value of magnetic susceptibility. As a consequence we could not find exact values of this material. We could only rely on approximate values of it. 
 
 Also, we found $V_{in}$ and $V_{out}$ trends, which should directly give connection to magnetic susceptibility. This are that reading in figure \ref{fig:voltage},
 
@@ -246,26 +244,40 @@ Slope \propto \chi_{ext}
 Here, $\chi_{ext}^{sample}= \frac{W \chi_{ext}}{W_a}$, where $W$ and $W_a$ are weight and atomic weight.
 
 \begin{equation*}
-\frac{5.23115219e-04}{5.62822393e-04} = \frac{(0.2906 g)\chi_{ext}^{(LSMO) \times (58.693)}}{(0.1942 g)\chi_{ext}^{(nickel)} \times (226.45)}
+\frac{5.23115219e-04}{5.62822393e-04} = \frac{(0.2906 g)\chi_{ext}^{(LSMO)} \times (58.693)}{(0.1942 g)\chi_{ext}^{(nickel)} \times (226.45)}
 \end{equation*}
 
 \begin{equation*}
 1.075905 = \frac{\chi_{ext}^{(LSMO)}\times 17.0562}{\chi_{ext}^{(nickel)} \times 43.9766}
 \end{equation*}
 
-\begin{equation*}
+\begin{equation}\label{relation}
 2.77404 \times \chi_{ext}^{nickel} = \chi_{ext}^{(LSMO)}
+\end{equation}
+
+For nickel we took magnetic susceptibility about $\chi_{int}^{(nickel)}=0.004423 m^3/mol$\cite{PhysRev.17.678}. If we put these values in equation \ref{thiseq}.
+
+
+
+\begin{equation*}
+\alpha \approx \frac{0.1101822}{\chi_{ext}^{(nickel)sample}}
 \end{equation*}
 
-For nickel we took magnetic susceptibility about $\chi_{int}^{(nickel)}=0.004423 m^3/mol$.
 
-If we put these values in equation \ref{thiseq}. This gave us a value of $\alpha = 11.82249$. This value is relatively high, which signifies sensitivity of our instrument. Compare it to values of some other commercial and also from other experiments, we have very $\frac{1}{\alpha}=0.08485 Am^2V^{-1}s^{-1}$ is low compared to commercials around $2.1546Am^2V^{-1}s^{-1}$ and from one experiment $11.24 Am^2V^{-1}s^{-1}$\cite{cambr}.
+Also, from LSMO voltage output and equation \ref{thiseq} and equation \ref{relation}, 
+
+
+\begin{equation*}
+\alpha \approx \frac{0.1089920}{\chi_{ext}^{(nickel)sample}}
+\end{equation*}
+
+With the value of $\chi_{ext}^{(nickel)sample} = 1.4634 \times 10^{-5}$. This gave us a value of $\alpha \approx 7485$. This value is relatively high, which signifies sensitivity of our instrument. Compare it to values of some other commercial and also from other experiments, we have $\frac{1}{\alpha}= 0.0001336 Am^2V^{-1}s^{-1}$ is very low compared to commercials around $2.1546Am^2V^{-1}s^{-1}$ and from one experiment $11.24 Am^2V^{-1}s^{-1}$\cite{cambr}.
 
 
 \subsection{Noise}
 
 
-Noise factor in our instrument is very high. For Example the $R$ values which are absolute values of voltage ($\sqrt{X^2+Y^2}$) have relatively less noise compared to phase measurement. These noise values can’t be ignored since our measurements will have a relatively low number of measurements and the signal will be very feeble.
+Noise factor in our instrument is very high. Also, the $R$ values which are absolute values of voltage ($\sqrt{X^2+Y^2}$) have relatively less noise compared to phase measurement. These noise values can’t be ignored since our measurements will have a relatively low number of measurements and the signal will be very feeble.
 
 
 
@@ -274,7 +286,7 @@ LOCK IN in our setup is a very low noise instrument. This is a good thing to sta
 
 
 
-After doing all this we have very significant noise in our setup. Take a comparison between $R$ values of samples and phase measurement of the system. Compare this figures \ref{fig:Tdata1}, \ref{fig:Tdata2}, \ref{fig:Tdata3} and  \ref{fig:Tdata4} to the $R$ measurement given on this figures \ref{fig:Rdata1}, \ref{fig:Rdata2}, \ref{fig:Rdata3}, \ref{fig:Rdata4}.
+After doing all this we still have very significant noise in our setup. Take a comparison between $R$ values of samples and phase measurement of the system. Compare this figures \ref{fig:Tdata1}, \ref{fig:Tdata2}, \ref{fig:Tdata3} and  \ref{fig:Tdata4} to the $R$ measurement given on this figures \ref{fig:Rdata1}, \ref{fig:Rdata2}, \ref{fig:Rdata3}, \ref{fig:Rdata4}.
 
 
 \begin{figure}[hbt!]
@@ -301,7 +313,7 @@ After doing all this we have very significant noise in our setup. Take a compari
 \newpage
 \section{Future work and extension for setup}
 
-As you see earlier we got foundational work done for our AC susceptometer instrument. Now, this setup can be used measuring susceptibility values at particular frequencies and temperatures. We can extend this with an external setup for temperature sweeps. We have designed that setup but not yet implemented it because of a lack of time in semester work.
+As you see earlier we got foundational work done for our AC susceptometer instrument. Now, this setup can be used for measuring susceptibility values at particular frequencies and temperatures. We can extend this with an external setup for temperature sweeps. We have designed that setup but not yet implemented it because of a lack of time in semester.
 
 \subsection{Temperature controlling and measuring setup}
 Essential constraints for temperature control and measurement is as follows,
@@ -315,11 +327,11 @@ Essential constraints for temperature control and measurement is as follows,
 \item It must not affect measurement of susceptibility which implies that measurement and control unit must be very less magnetic compared to sample.
 \end{itemize}
 
-With this constraint we have designed the setup. We need the first heater. For that we have a temperature control unit with PT100 as feedback sensor. From the 4th constraint we need very little interference, for that we can use ceramic (non ferrite). One rod of ceramic is connected with a sample inside the instrument and the other end with heater wire (nichrome wire) outside the instrument. Of Course this will affect heat flow and we will end up with a gradient of temperature levels. This will compensate for the slow heat rate (few celsius per minutes) from the heater. Still this will affect temperature levels at sample. These problems can be solved by using another temperature sensor very close to the sensor and a small sample size (capsule size). Another sensor will help us to take data effectively without creating problems with the heater.
+With this constraint we have designed the setup. First, we need the heater. For that we have a temperature control unit with PT100 as feedback sensor. From the 4th constraint we need very little interference, for that we can use ceramic (non ferrite) rod. One end of ceramic rod is connected with a sample inside the instrument and the other end with heater wire (nichrome wire) outside the instrument. Of Course this will affect heat flow and we will end up with a gradient of temperature levels. This problem will be compensated for the slow heat rate (few celsius per minutes) from the heater. Still this will affect temperature levels at sample. These problems can be solved by using another temperature sensor very close to the sensor and a small sample size (capsule size). Also, Another sensor will help us to take data effectively without creating problems with the heater.
 
 \subsection{One coherent system for automatic measurement}
- As in the previous section we have discussed how temperature setup can be done. This temperature setup must be in sync with measurement of susceptibility. For this we need one system where we can have timed data and simultaneous data of different measurements. We have devised a plan for doing that. We need one microprocessor and ADC for the temperature sensor. This microcontroller will be coupled with a computer. Also as we discussed previously, SR830 interfaces directly to the computer. This data stream will be connected to one frame computer with simultaneous measurement readings coming from both places.
-For temperature measurement we took PT100 Sensor. This sensor is then connected with an ADC converter and porting mechanism to the microprocessor. We will be using a microprocessor as Arduino Uno. We will be using ready-made porting and an ADC converter for Arduino.\footnote{MAX31865} With Arduino’s capability to easily connect to a mainframe computer, we will use it as an intermediate step in taking data. You can say the whole plane in the Block diagram shown in figure \ref{fig:setupimage}.
+ As in the previous section we have discussed how temperature setup can be done. This temperature setup must be in sync with measurement of susceptibility. For this we need one system where we can have timed data and simultaneous data of different measurements. We have devised a plan for doing that. We need one microprocessor and ADC for the temperature sensor. This microcontroller will be coupled with a computer. Also as we discussed previously, SR830 interfaces directly to the computer. This data stream will be connected to main frame computer with simultaneous measurement readings coming from both places.
+For temperature measurement we took PT100 Sensor. This sensor is then connected with an ADC converter and porting mechanism to the microprocessor. We will be using a microprocessor as Arduino Uno. We will be using ready-made porting and an ADC converter for Arduino.\footnote{MAX31865} With Arduino’s capability to easily connect to a mainframe computer, we will use it as an intermediate step in taking data. You can see the whole plan in the Block diagram shown in figure \ref{fig:setupimage}.
 
 \begin{figure}[hbt!]
   \includegraphics[width= \linewidth]{setup.png}
@@ -329,5 +341,5 @@ For temperature measurement we took PT100 Sensor. This sensor is then connected 
 
 \section{Results and Conclusion}
 
-We have made an AC susceptometer for measuring magnetic properties of material. These instruments can measure magnetic susceptibility automatically of a sample and with extended instrumentation as we talked in Experimental setup is capable of measuring magnetic properties in temperature sweeps. This can help tremendously in finding magnetic phase transition. We didn’t find that here but we find magnetic susceptibility of some of the samples.
+We have made an AC susceptometer for measuring magnetic properties of material. These instruments can measure magnetic susceptibility automatically of a sample and with extended instrumentation as we talked in Experimental setup is capable of measuring magnetic properties in temperature sweeps. This can help tremendously in finding magnetic phase transition. We didn’t find that here but we find magnetic susceptibility of some of the samples. For example we found magnetic Susceptibility of LSMO ($La_{0.7}Sr_{0.3}MnO_3$) at frequency 1kHz, at room temperature is $0.01227 m^3/mol$ with reference to nickel's susceptibility taken at $0.004423 m^3/mol$\cite{PhysRev.17.678}. Here, calibration constant is $\alpha \approx 7485$ (Look equation \ref{thiseq} to make sense).
 

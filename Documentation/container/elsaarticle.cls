@@ -368,8 +368,8 @@
   \def\baselinestretch{1}%
   \begin{center}%
     \def\baselinestretch{1}%
-    \vskip-50pt
-  \parbox[h]{.9\textwidth}{\centering \vskip-20pt
+    \vskip0pt
+  \parbox[h]{.9\textwidth}{\centering \vskip0pt
 \parbox[h]{.75\textwidth}{\centering\includegraphics[width=300pt]{GUlogo.pdf}}
 %%     \vskip50pt
     \parbox[b]{.75\textwidth}{\centering\Huge Project Report \par}\vskip10pt

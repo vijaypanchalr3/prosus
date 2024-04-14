@@ -1,62 +1,107 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem{Panchal2024gb}
-
-
-\bibitem{10.1063/1.1148349}
+\bibitem[Bajpai and Banerjee(1997)]{10.1063/1.1148349}
 A.~Bajpai and A.~Banerjee.
 \newblock An automated susceptometer for the measurement of linear and
   nonlinear magnetic ac susceptibility.
-\newblock {\em Review of Scientific Instruments}, 68(11):4075--4079, 11 1997.
+\newblock \emph{Review of Scientific Instruments}, 68\penalty0 (11):\penalty0
+  4075--4079, 11 1997.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.1148349}.
+\newblock URL \url{https://doi.org/10.1063/1.1148349}.
 
-\bibitem{10.1063/5.0182471}
+\bibitem[Brant(1921)]{PhysRev.17.678}
+Laura Brant.
+\newblock Magnetic susceptibility of nickel and cobalt chloride solutions.
+\newblock \emph{Phys. Rev.}, 17:\penalty0 678--699, Jun 1921.
+\newblock \doi{10.1103/PhysRev.17.678}.
+\newblock URL \url{https://link.aps.org/doi/10.1103/PhysRev.17.678}.
+
+\bibitem[Chakravarty and Nair(2024)]{10.1063/5.0182471}
 Shruti Chakravarty and Sunil Nair.
 \newblock Exploring low-temperature dynamics in triple perovskite ruthenates
   using nonlinear dielectric susceptibility measurements.
-\newblock {\em Journal of Applied Physics}, 135(10):104103, 03 2024.
+\newblock \emph{Journal of Applied Physics}, 135\penalty0 (10):\penalty0
+  104103, 03 2024.
+\newblock ISSN 0021-8979.
+\newblock \doi{10.1063/5.0182471}.
+\newblock URL \url{https://doi.org/10.1063/5.0182471}.
 
-\bibitem{wikidia}
+\bibitem[contributors(2024{\natexlab{a}})]{wikidia}
 Wikipedia contributors.
-\newblock Diamagnetism -- wikipedia: The free encyclopedia, 2024.
+\newblock Diamagnetism -- wikipedia: The free encyclopedia, 2024{\natexlab{a}}.
+\newblock URL
+  \url{https://en.wikipedia.org/w/index.php?title=Diamagnetism&oldid=1206841250}.
 \newblock Online; accessed 14-April-2024.
 
-\bibitem{wikiferro}
+\bibitem[contributors(2024{\natexlab{b}})]{wikiferro}
 Wikipedia contributors.
-\newblock Ferromagnetism -- wikipedia: The free encyclopedia, 2024.
+\newblock Ferromagnetism -- wikipedia: The free encyclopedia,
+  2024{\natexlab{b}}.
+\newblock URL
+  \url{https://en.wikipedia.org/w/index.php?title=Ferromagnetism&oldid=1217560380}.
 \newblock Online; accessed 14-April-2024.
 
-\bibitem{wikipara}
+\bibitem[contributors(2024{\natexlab{c}})]{wikipara}
 Wikipedia contributors.
-\newblock Paramagnetism--wikipedia: The free encyclopedia, 2024.
+\newblock Paramagnetism--wikipedia: The free encyclopedia, 2024{\natexlab{c}}.
+\newblock URL
+  \url{https://en.wikipedia.org/w/index.php?title=Paramagnetism&oldid=1215782179}.
 \newblock Online; accessed 14-April-2024.
 
-\bibitem{10.1063/1.1137813}
+\bibitem[Goldfarb and Minervini(1984)]{10.1063/1.1137813}
 R.~B. Goldfarb and J.~V. Minervini.
 \newblock Calibration of ac susceptometer for cylindrical specimens.
-\newblock {\em Review of Scientific Instruments}, 55(5):761--764, 05 1984.
+\newblock \emph{Review of Scientific Instruments}, 55\penalty0 (5):\penalty0
+  761--764, 05 1984.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.1137813}.
+\newblock URL \url{https://doi.org/10.1063/1.1137813}.
 
-\bibitem{cambr}
+\bibitem[Laurent et~al.(2008)Laurent, Fagnard, Vanderheyden, Nadendla,
+  Cardwell, Ausloos, and Vanderbemden]{cambr}
 P~Laurent, J.~Fagnard, B~Vanderheyden, Haribabu Nadendla, David Cardwell,
   Marcel Ausloos, and P.~Vanderbemden.
 \newblock An ac susceptometer for the characterization of large, bulk
   superconducting samples.
-\newblock {\em Measurement Science and Technology}, 19, 05 2008.
+\newblock \emph{Measurement Science and Technology}, 19, 05 2008.
+\newblock \doi{10.1088/0957-0233/19/8/085705}.
 
-\bibitem{10.1063/1.2712792}
+\bibitem[Miga et~al.(2007)Miga, Dec, and Kleemann]{10.1063/1.2712792}
 S.~Miga, J.~Dec, and W.~Kleemann.
 \newblock Computer-controlled susceptometer for investigating the linear and
   nonlinear dielectric response.
-\newblock {\em Review of Scientific Instruments}, 78(3):033902, 03 2007.
+\newblock \emph{Review of Scientific Instruments}, 78\penalty0 (3):\penalty0
+  033902, 03 2007.
+\newblock ISSN 0034-6748.
+\newblock \doi{10.1063/1.2712792}.
+\newblock URL \url{https://doi.org/10.1063/1.2712792}.
 
-\bibitem{Mugiraneza2022}
+\bibitem[Mugiraneza and Hallas(2022)]{Mugiraneza2022}
 Sam Mugiraneza and Alannah~M. Hallas.
 \newblock Tutorial: a beginner's guide to interpreting magnetic susceptibility
   data with the curie-weiss law.
-\newblock {\em Communications Physics}, 5(1):95, Apr 2022.
+\newblock \emph{Communications Physics}, 5\penalty0 (1):\penalty0 95, Apr 2022.
+\newblock ISSN 2399-3650.
+\newblock \doi{10.1038/s42005-022-00853-y}.
+\newblock URL \url{https://doi.org/10.1038/s42005-022-00853-y}.
 
-\bibitem{Panchal}
+\bibitem[Panchal()]{Panchal}
 Vijay Panchal.
 \newblock Vijaypanchalr3/shotnoise: Project for shot noise detection.
+\newblock URL \url{https://github.com/vijaypanchalr3/shotnoise}.
 \newblock Online; accessed 14-April-2024.
+
+\bibitem[Panchal(2024)]{Panchal2024gb}
+Vijay Panchal.
+\newblock Pyinstro.
+\newblock \emph{Zenodo}, 2024.
+\newblock \doi{10.5281/zenodo.10969556}.
+\newblock URL \url{https://github.com/vijaypanchalr3/pyinstro}.
 
 \end{thebibliography}

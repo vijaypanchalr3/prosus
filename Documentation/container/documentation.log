@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.10.1)  14 APR 2024 12:51
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Debian)  (format=lualatex 2023.10.1)  14 APR 2024 19:17
  system commands enabled.
 **documentation.tex
 (./documentation.tex
@@ -858,6 +858,9 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count370
 \@thisrulewidth=\dimen296
 ))
+\bibitemsep=\skip90
+\bibparskip=\skip91
+
 (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
@@ -872,32 +875,32 @@ File: l3backend-luatex.def 2023-01-16 L3 backend support: PDF output (LuaTeX)
 (./documentation.aux (./frontmatter.aux))
 \openout1 = documentation.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
-.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -957,7 +960,7 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 19.
 (./documentation.out) (./documentation.out)
 \@outlinefile=\write7
 
@@ -969,7 +972,7 @@ Package svg Warning: No version of Inkscape was detected by invoking
 (svg)                so the Inkscape export will fail quite sure as the
 (svg)                command is probably unknown to your OS. You could set
 (svg)                `inkscapeversion=<version>' manually but this is very
-(svg)                unlikely to work on input line 7.
+(svg)                unlikely to work on input line 19.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -979,14 +982,14 @@ warning  (file GUlogo.pdf) (pdf inclusion): PDF inclusion: found PDF version '1.
 <GUlogo.pdf, id=78, 1195.01576pt x 845.04689pt>
 File: GUlogo.pdf Graphic file (type pdf)
 <use GUlogo.pdf>
-Package luatex.def Info: GUlogo.pdf  used on input line 11.
+Package luatex.def Info: GUlogo.pdf  used on input line 23.
 (luatex.def)             Requested size: 300.0pt x 212.13802pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 11.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -995,7 +998,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Undefined control sequence.
 <argument> \undefinedpagestyle 
                     
-l.11 \clearpage
+l.23 \clearpage
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1030,11 +1033,6 @@ File: inverse.png Graphic file (type png)
 Package luatex.def Info: inverse.png  used on input line 16.
 (luatex.def)             Requested size: 226.79846pt x 170.10226pt.
 
-Underfull \hbox (badness 1308) in paragraph at lines 14--20
-[]\TU/lmr/m/n/12 Curie’s law: Para-m-ag-nets ap-prox-i-mately
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 14--20
 
  []
@@ -1054,187 +1052,315 @@ File: phasefig.pdf Graphic file (type pdf)
 <use phasefig.pdf, page 5>
 Package luatex.def Info: phasefig.pdf , page5 used on input line 38.
 (luatex.def)             Requested size: 522.0pt x 120.89171pt.
-<phaserel.png, id=175, 462.528pt x 346.896pt>
+<phaserel.png, id=177, 462.528pt x 346.896pt>
 File: phaserel.png Graphic file (type png)
 <use phaserel.png>
 Package luatex.def Info: phaserel.png  used on input line 54.
 (luatex.def)             Requested size: 252.0pt x 189.00427pt.
 [2<./inverse.png>]) (./setup.tex
+! Package caption Error: \caption outside float.
 
-Package caption Warning: \captionsetup{type*=...} or \captionof
-(caption)                outside box or environment on input line 25.
 See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{tabularx}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
+! Package caption Error: \caption outside float.
 
-Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{tabularx}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<coils.png, id=198, 394.23285pt x 473.72984pt>
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{tabularx}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{tabularx}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package caption Error: \caption outside float.
+
+See the caption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \end{tabularx}
+                 
+If you do not understand this error, please take a closer look
+at the documentation of the `caption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<coils.png, id=200, 394.23285pt x 473.72984pt>
 File: coils.png Graphic file (type png)
 <use coils.png>
-Package luatex.def Info: coils.png  used on input line 30.
+Package luatex.def Info: coils.png  used on input line 29.
 (luatex.def)             Requested size: 365.3984pt x 439.08958pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [3<./phasefig.pdf><./phaserel.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Underfull \vbox (badness 2205) has occurred while \output is active []
-
  [4<./coils.png>]
-<circuit.png, id=284, 237.85864pt x 231.89636pt>
+<circuit.png, id=285, 237.85864pt x 177.15184pt>
 File: circuit.png Graphic file (type png)
 <use circuit.png>
-Package luatex.def Info: circuit.png  used on input line 83.
-(luatex.def)             Requested size: 252.0pt x 245.69572pt.
+Package luatex.def Info: circuit.png  used on input line 81.
+(luatex.def)             Requested size: 252.0pt x 187.69354pt.
 
-Overfull \hbox (26.43068pt too wide) detected at line 98
+Overfull \hbox (26.43068pt too wide) detected at line 96
 [][][]\OML/cmm/m/it/12 I[] \OT1/cmr/m/n/12 = [] + \OML/cmm/m/it/12 Ce[]
  []
 
 [5<./circuit.png>]
-<plots/fe2o3R.png, id=307, 465.05745pt x 399.53265pt>
+<plots/fe2o3R.png, id=306, 465.05745pt x 399.53265pt>
 File: plots/fe2o3R.png Graphic file (type png)
 <use plots/fe2o3R.png>
-Package luatex.def Info: plots/fe2o3R.png  used on input line 156.
+Package luatex.def Info: plots/fe2o3R.png  used on input line 154.
 (luatex.def)             Requested size: 252.0pt x 216.49426pt.
-<plots/gd2o3R.png, id=308, 465.05745pt x 399.53265pt>
+<plots/gd2o3R.png, id=307, 465.05745pt x 399.53265pt>
 File: plots/gd2o3R.png Graphic file (type png)
 <use plots/gd2o3R.png>
-Package luatex.def Info: plots/gd2o3R.png  used on input line 161.
+Package luatex.def Info: plots/gd2o3R.png  used on input line 159.
 (luatex.def)             Requested size: 252.0pt x 216.49426pt.
-<plots/LSMOR.png, id=309, 465.05745pt x 399.53265pt>
+<plots/LSMOR.png, id=308, 465.05745pt x 399.53265pt>
 File: plots/LSMOR.png Graphic file (type png)
 <use plots/LSMOR.png>
-Package luatex.def Info: plots/LSMOR.png  used on input line 169.
+Package luatex.def Info: plots/LSMOR.png  used on input line 167.
 (luatex.def)             Requested size: 252.0pt x 216.49426pt.
-<plots/nickelR.png, id=310, 465.05745pt x 399.53265pt>
+<plots/nickelR.png, id=309, 465.05745pt x 399.53265pt>
 File: plots/nickelR.png Graphic file (type png)
 <use plots/nickelR.png>
-Package luatex.def Info: plots/nickelR.png  used on input line 174.
+Package luatex.def Info: plots/nickelR.png  used on input line 172.
 (luatex.def)             Requested size: 252.0pt x 216.49426pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 195.
+(caption)                particular \caption on input line 193.
 See the caption package documentation for explanation.
 
-[6<./plots/fe2o3R.png>]
+[6]
+Underfull \vbox (badness 6893) has occurred while \output is active []
+
 <plots/voltage.png, id=328, 405.1938pt x 397.84634pt>
 File: plots/voltage.png Graphic file (type png)
 <use plots/voltage.png>
-Package luatex.def Info: plots/voltage.png  used on input line 205.
+Package luatex.def Info: plots/voltage.png  used on input line 203.
 (luatex.def)             Requested size: 252.0pt x 247.43315pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 224.
+(caption)                particular \caption on input line 222.
 See the caption package documentation for explanation.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7<./plots/gd2o3R.png><./plots/LSMOR.png><./plots/nickelR.png><./plots/voltage.
-png>]
-<plots/fe2o3T.png, id=349, 413.26395pt x 400.1349pt>
+ [7<./plots/fe2o3R.png><./plots/gd2o3R.png><./plots/LSMOR.png><./plots/nickelR.p
+ng>]
+Overfull \hbox (2.45476pt too wide) detected at line 248
+[] \OT1/cmr/m/n/12 = []
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 274--275
+\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 1546\OML/cmm/m/it/12 Am[]V[]
+s[]$ \TU/lmr/m/n/12 and from one ex-per-i-ment
+ []
+
+[8<./plots/voltage.png>]
+<plots/fe2o3T.png, id=362, 413.26395pt x 400.1349pt>
 File: plots/fe2o3T.png Graphic file (type png)
 <use plots/fe2o3T.png>
-Package luatex.def Info: plots/fe2o3T.png  used on input line 281.
+Package luatex.def Info: plots/fe2o3T.png  used on input line 293.
 (luatex.def)             Requested size: 252.0pt x 243.99644pt.
-<plots/LSMOT.png, id=350, 413.26395pt x 399.53265pt>
+<plots/LSMOT.png, id=363, 413.26395pt x 399.53265pt>
 File: plots/LSMOT.png Graphic file (type png)
 <use plots/LSMOT.png>
-Package luatex.def Info: plots/LSMOT.png  used on input line 286.
+Package luatex.def Info: plots/LSMOT.png  used on input line 298.
 (luatex.def)             Requested size: 252.0pt x 243.62921pt.
-<plots/nickelT.png, id=351, 413.26395pt x 399.53265pt>
+<plots/nickelT.png, id=364, 413.26395pt x 399.53265pt>
 File: plots/nickelT.png Graphic file (type png)
 <use plots/nickelT.png>
-Package luatex.def Info: plots/nickelT.png  used on input line 291.
+Package luatex.def Info: plots/nickelT.png  used on input line 303.
 (luatex.def)             Requested size: 252.0pt x 243.62921pt.
-<plots/gd2o3T.png, id=352, 424.58624pt x 399.53265pt>
+<plots/gd2o3T.png, id=365, 424.58624pt x 399.53265pt>
 File: plots/gd2o3T.png Graphic file (type png)
 <use plots/gd2o3T.png>
-Package luatex.def Info: plots/gd2o3T.png  used on input line 296.
+Package luatex.def Info: plots/gd2o3T.png  used on input line 308.
 (luatex.def)             Requested size: 252.0pt x 237.13048pt.
-
-[8<./plots/fe2o3T.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
+ [9<./plots/fe2o3T.png><./plots/LSMOT.png><./plots/nickelT.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
 
  []
 
-[9<./plots/LSMOT.png><./plots/nickelT.png><./plots/gd2o3T.png>]
-<setup.png, id=374, 925.056pt x 904.51067pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
+
+[10<./plots/gd2o3T.png>]
+<setup.png, id=387, 829.55635pt x 757.9058pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package luatex.def Info: setup.png  used on input line 325.
-(luatex.def)             Requested size: 252.0pt x 246.40181pt.
-)
-(./documentation.bbl
-Underfull \hbox (badness 1215) in paragraph at lines 7--11
-[]\TU/lmr/m/n/12 A. Ba-j-pai and A. Baner-jee.  An au-to-
+Package luatex.def Info: setup.png  used on input line 337.
+(luatex.def)             Requested size: 252.0pt x 230.22998pt.
+
+Underfull \hbox (badness 1635) in paragraph at lines 344--345
+\TU/lmr/m/n/12 mag-netic sus-cep-ti-bil-ity of some of the sam-
  []
 
-[10<./setup.png>]
-Underfull \hbox (badness 4229) in paragraph at lines 46--50
+) (./documentation.bbl
+Underfull \hbox (badness 1337) in paragraph at lines 36--41
+\TU/lmr/m/n/12 wikipedia: The free en-cy-clo-pe-dia, 2024.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+\TU/lmr/m/n/12 URL []$\TU/lmtt/m/n/12 https://en.wikipedia.org/w/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+\TU/lmtt/m/n/12 index.php?title=Diamagnetism&oldid=
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 43--49
+[]\TU/lmr/m/n/12 Wikipedia con-trib-u-tors.  Fer-ro-mag-netism
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
+\TU/lmr/m/n/12 -- wikipedia: The free en-cy-clo-pe-dia,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--49
+\TU/lmtt/m/n/12 w/index.php?title=Ferromagnetism&
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 43--49
+\TU/lmtt/m/n/12 oldid=1217560380$[]\TU/lmr/m/n/12 .  On-line; ac-cessed
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 51--56
+\TU/lmr/m/n/12 wikipedia: The free en-cy-clo-pe-dia, 2024.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+\TU/lmr/m/n/12 URL []$\TU/lmtt/m/n/12 https://en.wikipedia.org/w/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
+\TU/lmtt/m/n/12 index.php?title=Paramagnetism&oldid=
+ []
+
+[11<./setup.png>]
+Underfull \hbox (badness 4229) in paragraph at lines 76--84
 []\TU/lmr/m/n/12 S. Miga, J. Dec, and W. Klee-mann.
  []
 
-) [11
 
-] (./documentation.aux (./frontmatter.aux)
+Underfull \hbox (badness 1406) in paragraph at lines 95--99
+\TU/lmr/m/n/12 Project for shot noise de-tec-tion.  URL
+ []
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
 
-)
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
+[]$\TU/lmtt/m/n/12 https://github.com/vijaypanchalr3/
+ []
+
+) [12
+
+] (./documentation.aux (./frontmatter.aux))
 Package rerunfilecheck Info: File `documentation.out' has not changed.
 (rerunfilecheck)             Checksum: 27A6035AB274208611ED04E57615AFF2;3249.
 )
 
 Here is how much of LuaTeX's memory you used:
- 20046 strings out of 478382
+ 20061 strings out of 478382
  125086,1977958 words of node,token memory allocated
- 826 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 6 glue, 4 kern, 1 glyph, 40 attribute, 87 glue_spec
-, 40 attribute_list, 2 write nodes
-   avail lists: 1:2,2:693,3:281,4:62,5:430,6:71,7:7794,8:93,9:862,10:17,11:745
- 39041 multiletter control sequences out of 65536+600000
- 86 fonts using 6191703 bytes
- 101i,12n,92p,1235b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 933 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 51 attribute, 89 glue_spec
+, 51 attribute_list, 2 write, 10 pdf_action nodes
+   avail lists: 1:2,2:715,3:425,4:62,5:425,6:56,7:7811,8:94,9:819,10:19,11:738
+ 39054 multiletter control sequences out of 65536+600000
+ 87 fonts using 6317791 bytes
+ 101i,12n,92p,1235b,563s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 warning  (pdf backend): unreferenced destination with name 'Hfootnote.1'
-</usr/share/texmf/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texm
-f/fonts/opentype/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype
-/public/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
-an10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic
-.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/shar
-e/texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/open
-type/public/lm/lmroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb>
-Output written on documentation.pdf (14 pages, 24527593 bytes).
+</usr/share/texmf/fonts/opentype/public/lm/lmmono12-regular.otf></usr/share/texm
+f/fonts/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype
+/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmrom
+an8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf
+></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf></usr/share
+/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/op
+entype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/l
+mroman17-regular.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y8.pfb>
+Output written on documentation.pdf (15 pages, 24376435 bytes).
 
-PDF statistics: 482 PDF objects out of 1000 (max. 8388607)
- 361 compressed objects within 4 object streams
- 72 named destinations out of 1000 (max. 131072)
+PDF statistics: 529 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 74 named destinations out of 1000 (max. 131072)
  170 words of extra memory for PDF output out of 10000 (max. 100000000)
 

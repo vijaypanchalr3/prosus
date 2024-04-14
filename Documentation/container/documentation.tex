@@ -1,5 +1,17 @@
 \documentclass[final,5p,12pt,twocolumn]{elsaarticle}
 \include{mypackages}
+%% \usepackage[
+%% backend=biber,
+%% style=alphabetic,
+%% ]{biblatex}
+\newlength{\bibitemsep}\setlength{\bibitemsep}{.4\baselineskip plus .05\baselineskip minus .05\baselineskip}
+\newlength{\bibparskip}\setlength{\bibparskip}{0pt}
+\let\oldthebibliography\thebibliography
+\renewcommand\thebibliography[1]{%
+  \oldthebibliography{#1}%
+  \setlength{\parskip}{\bibitemsep}%
+  \setlength{\itemsep}{\bibparskip}%
+}
 \usepackage{parskip}
 \setlength{\parskip}{10pt} % 1ex plus 0.5ex minus 0.2ex}
 \setlength{\parindent}{30pt}
@@ -18,10 +30,11 @@
 \input{theory}
 \section{Experimental setup}\label{setup}
 \input{setup}
-
+%% \setlength{\bibsep}{0pt plus 0.3ex}
 \addcontentsline{toc}{section}{References}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{documentation}
+
 
 
 \end{document}
